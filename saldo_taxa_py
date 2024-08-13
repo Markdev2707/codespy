@@ -1,0 +1,6 @@
+saldo = float(input("Digite o  saldo: "))
+tjuros = float(input("Digite a taxa de juros: "))
+
+novo = saldo + (saldo * (tjuros / 100))
+
+print(f"O novo saldo é de R$ {novo}")
