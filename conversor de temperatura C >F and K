@@ -1,0 +1,7 @@
+print("Conversor de temperatura")
+
+celsius  = float(input("Digite a temperatura em C°: "))
+fahrenheit = (celsius * 1.8) + 32
+kelvin = (celsius + 273)
+
+print(f"A temperatura {celsius} C° é {fahrenheit} F° e em Kelvin é {kelvin} Kº")
