@@ -1,0 +1,7 @@
+senha_correta = "12345"
+senha_digitada = input("Digite a sua melhor senha:")
+
+if senha_digitada == senha_correta:
+    print("Acesso autorizado")
+else:
+    print("Acesso não autorizado")
