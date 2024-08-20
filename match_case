@@ -1,0 +1,18 @@
+print("1 - for inlcusão")
+print("2- for alteração")
+print("3 for exclusão")
+print("4 for listagem")
+
+op = input("Digite uma das opções: ")
+
+match(op):
+    case"1":
+        print("Incluindo produto")
+    case"2":
+        print("Alteração produto")
+    case"3":
+        print("Exclusão produto")
+    case"4":
+        print("Listagem produto")
+    case"_":
+        print("Opção invalida")
