@@ -1,0 +1,154 @@
+#IMPRIMIR Nº PARES DE 0 A 1000
+#COM WHILE
+"""contador= 0
+while contador <=1000:
+    print(contador)
+    contador += 2"""
+#Quantidade de interações "deterministica"
+""" contador = 0
+for contador in range (0,1001,2):
+    print(contador, end= " ")"""
+#Criação de vetor com o comando list 0- 99
+"""lista = list(range(100))
+print(lista)"""
+#Criação de uma sequência vetorial com os caracteres dos nome
+"""for letra in "Marcus Vinicius Ferreira Santos":
+    print(letra)"""
+
+#Elabore um programa que simula o caixa do mercado, ao final da compra, deve imprimir o total a pagar.
+#Quatidade de interações "probabilistico".
+"""import os
+total = 0
+preco = 1
+
+while preco > 0:
+    preco = float(input("Digite preço: "))    
+    total = total + preco #total += preco
+    os.system("cls")
+    print(f"Total a pagar R$ {total}")"""
+
+#Feito com o for, porém não é essencial para esse modelo probabilistico
+"""import os
+total = 0
+preco = 0
+
+for qt in range(1000000):
+    preco = float(input("Digite o preço: "))
+    if preco == 0:
+        break
+    os.system("cls")
+    total += preco
+
+    print(f"O valor da sua compra é R$ {total}")
+    print("---------------------------------")"""
+
+#Problema passado pelo profº
+#1º O Usuário digita 'n' valores inteiros e o programa deve 
+#imprimir somente a soma dos números pares informados.
+"""valorI = 1
+soma = 0
+
+while valorI != 0:
+    valorI=int(input("Digite um número: "))
+    if valorI % 2 == 0:
+        soma += valorI
+
+print(f"Somatório dos pares igual a = {soma}")"""
+
+#2º Usuário digita um texto e o programa conta e imprime a quantidade de vogais.
+#minha tentativa de fazer:
+"""texto = input("Digite o seu nome: ")
+vogais = "aeiouAEIOU"
+contadorVogais = 0#IMPRIMIR Nº PARES DE 0 A 1000
+#COM WHILE
+"""contador= 0
+while contador <=1000:
+    print(contador)
+    contador += 2"""
+#Quantidade de interações "deterministica"
+""" contador = 0
+for contador in range (0,1001,2):
+    print(contador, end= " ")"""
+#Criação de vetor com o comando list 0- 99
+"""lista = list(range(100))
+print(lista)"""
+#Criação de uma sequência vetorial com os caracteres dos nome
+"""for letra in "Marcus Vinicius Ferreira Santos":
+    print(letra)"""
+
+#Elabore um programa que simula o caixa do mercado, ao final da compra, deve imprimir o total a pagar.
+#Quatidade de interações "probabilistico".
+"""import os
+total = 0
+preco = 1
+
+while preco > 0:
+    preco = float(input("Digite preço: "))    
+    total = total + preco #total += preco
+    os.system("cls")
+    print(f"Total a pagar R$ {total}")"""
+
+#Feito com o for, porém não é essencial para esse modelo probabilistico
+"""import os
+total = 0
+preco = 0
+
+for qt in range(1000000):
+    preco = float(input("Digite o preço: "))
+    if preco == 0:
+        break
+    os.system("cls")
+    total += preco
+
+    print(f"O valor da sua compra é R$ {total}")
+    print("---------------------------------")"""
+
+#Problema passado pelo profº
+#1º O Usuário digita 'n' valores inteiros e o programa deve 
+#imprimir somente a soma dos números pares informados.
+"""valorI = 1
+soma = 0
+
+while valorI != 0:
+    valorI=int(input("Digite um número: "))
+    if valorI % 2 == 0:
+        soma += valorI
+
+print(f"Somatório dos pares igual a = {soma}")"""
+
+#2º Usuário digita um texto e o programa conta e imprime a quantidade de vogais.
+#minha tentativa de fazer:
+"""texto = input("Digite o seu nome: ")
+vogais = "aeiouAEIOU"
+contadorVogais = 0
+
+for caracteres in texto:
+    if caracteres in vogais:
+        contadorVogais += 1
+print(contadorVogais)"""
+
+#Forma que o professor fez
+
+"""texto = input("Digite um texto: ").lower() # O comando lower é para salva na variável tudo em minusculo.
+vogais = 0
+for letra in texto:
+    if letra in "aeiou":
+        vogais += 1
+print(f"Quantidade de vogais igual a {vogais}")"""
+
+
+
+for caracteres in texto:
+    if caracteres in vogais:
+        contadorVogais += 1
+print(contadorVogais)"""
+
+#Forma que o professor fez
+
+"""texto = input("Digite um texto: ").lower() # O comando lower é para salva na variável tudo em minusculo.
+vogais = 0
+for letra in texto:
+    if letra in "aeiou":
+        vogais += 1
+print(f"Quantidade de vogais igual a {vogais}")"""
+
