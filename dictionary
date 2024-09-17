@@ -1,0 +1,63 @@
+#notas = {"leo":7.5 , "leo": 8.0} #Cada par é constituído por uma chave : valor
+#print(notas)
+#DICIONÁRIO - // TIPO TABELA HASH
+#chave é única
+#númerica / string
+#valor função/ comando
+
+#CRUD 
+#Criação do dicionário
+'''dados = {
+    1 : ["Parafuso", 0.50 , 120], 2 : ["Porta", 0.30, 200], 3 : ["Arruela", 0.20, 320]
+}'''
+
+#Inclusão de mais informações
+'''dados [4] = ["Prego", 0.10, 1000]'''
+
+#feito isso a inclusão foi feita
+'''print(dados, end=" ")'''
+
+#alteração dos itens
+'''dados [2] [1] = 0.35
+print(dados)'''
+
+#exclusão de itens do dicionário
+#importante fazer um if antes para saber se o usuário tem certeza da exclusão
+'''del dados [3]'''
+
+#Fazendo um relatório organizado
+
+'''for produto in dados.values():
+    print(f"Item: {produto}")'''
+
+
+#------------------------------------------------------------------------------
+'''versão myself
+
+contador = 0
+
+while True:
+    #dados = {[contador] : [input("Digite o nome do produto: "), float(input("Digite o valor do produto: ")), int(input("Digite a quantidade do produto: "))] }
+    lista = list()
+
+    contador += 1
+
+
+    continuar = input("Deseja continuar? S/N")'''
+
+#versão do professor
+produtos = {} #criação da dict() - dicionário
+contador = 1 #criação do contador
+
+while True:
+    nome = input("Digite o nome do produto: ").strip().upper() #Usuário vai digitar o produtos
+    preco = float(input("Digite o preço do produto: ")) #Usuário vai digitar o preço
+
+    produtos [contador] = [nome, preco] #Inclusão dos inputs no dicionário.
+    contador += 1 #contador contabilizando das chaves.
+
+    continuar = input("Deseja continuar S/N: ").strip().upper() #criação da variavel para ser usada no if dando a condição do ususário continuar no loop ou sair
+    if continuar != "S" : break # Se continuar for diferente de 'S' ele sai do loop e printa na tela os itens
+
+print(produtos)
+
